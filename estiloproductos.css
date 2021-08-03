@@ -1,0 +1,98 @@
+
+
+body{
+    background-image: url(imagenes/estrellas.png);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+a{
+    background-image: url(imagenes/estrellas.png);
+    text-decoration:none;
+}
+
+/*/////////////////////////////////////CSS DEL HEADER    //////////////////////////////////*/
+
+.Header{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.HeaderImg img{
+    width: 90px;
+    margin-left: 40px;
+}
+
+.Header h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:45 px;
+}
+
+.HeaderNav{
+    margin-right: 50px;
+    width: 40%;
+    font-size: 20px;
+}
+
+.HeaderNav ul{
+    background: black;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    transition:all 2s;
+}
+.HeaderNav ul :hover{
+    
+    border-radius: 5px;
+    background-color: #000000;
+background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+
+}
+.Header a{
+
+    color: orange;
+}
+
+
+.mainh1{
+    color:orange;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+ /*///////////////////////MAIN DEL CSS//////////////////////*/
+.mainli{
+    color: honeydew;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.mainhard{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px 200px;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+
+.mainhard div img{
+    background-color: black;
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+
+}
+
+
